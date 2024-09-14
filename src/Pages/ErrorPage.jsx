@@ -1,11 +1,11 @@
  
 
-const ErrorPage = () => {
+function ErrorPage() {
     return (
         <div>
-           <img  className="text-center" src="/public/404Page.gif" alt="" /> 
+            <img className="flex justify-center items-center h-screen" src="/public/404Page.gif" alt="" />
         </div>
     );
-};
+}
 
 export default ErrorPage;
